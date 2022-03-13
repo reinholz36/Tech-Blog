@@ -25,12 +25,12 @@
             data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
             aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
 
-            <div class="collapse navbar-collapse topnavjustify" id="navbarSupportedContent41">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent41">
                 <ul class="navbar-nav mr-auto">
                     <nav>
                         {{#if loggedIn}}
                         <a href="/dashboard" class="nav-link text-white">Dashboard</a>
-                        <button id="logout" class="btn-no-style">Logout</button>
+                        <button id="logout" class="btn-no-style text-white">Logout</button>
                         {{else}}
                         <a href="/login" class="nav-link text-white">SignUp or Login</a>
                         {{/if}}

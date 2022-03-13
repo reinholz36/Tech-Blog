@@ -91,7 +91,7 @@ header h1 {
   
 main {
     flex: 1;
-    padding: 2% 4%;
+    padding: 2% 5%;
 }
   
 .btn-no-style {
@@ -117,7 +117,7 @@ main {
 }
   
 .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: #a11010;
 }
   
 .post {
@@ -128,7 +128,7 @@ main {
 .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: #b8b8b8;
 }
   
 .edit-link {
@@ -155,7 +155,7 @@ main {
 }
   
 .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #333;
 }
   
 .comment .meta {
